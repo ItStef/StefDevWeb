@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000033; /* Dark blue background */
+    color: #fff; /* White text */
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar a {
+    color: #fff; /* White text */
+    text-decoration: none;
+}
+
+section {
+    height: 100vh; /* Make each section fill the viewport height */
+    padding: 20px;
+}
